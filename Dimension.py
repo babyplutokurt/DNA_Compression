@@ -16,5 +16,5 @@ def get_array_length(file_path):
 file_path = 'integers.bin'
 
 # Calculate and print the length of the array
-array_length = get_array_length("/Users/taolueyang/DNA_Compression/Output/SCORE_bin.bin")
+array_length = get_array_length("Output/SCORE_bin.bin")
 print(f"The length of the array is: {array_length}")

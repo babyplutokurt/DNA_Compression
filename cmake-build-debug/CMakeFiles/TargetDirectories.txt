@@ -1,0 +1,3 @@
+/Users/taolueyang/DNA_Compression/cmake-build-debug/CMakeFiles/DNA_Compression.dir
+/Users/taolueyang/DNA_Compression/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/taolueyang/DNA_Compression/cmake-build-debug/CMakeFiles/rebuild_cache.dir

@@ -1,20 +1,18 @@
 import os
 
-# Function to calculate the length of the array stored in a binary file
 def get_array_length(file_path):
-    # Size of each integer in bytes (4 bytes for 'i' type)
-    element_size = 4
+    # Size of each float in bytes (4 bytes for a standard 32-bit float)
+    float_size = 4
 
     # Get the size of the file in bytes
     file_size = os.path.getsize(file_path)
 
-    # Calculate the number of elements in the array
-    num_elements = file_size // element_size
-    return num_elements
+    # Calculate the number of floats in the file
+    num_floats = file_size // float_size
 
-# Path to the binary file
-file_path = 'integers.bin'
+    return num_floats
 
-# Calculate and print the length of the array
-array_length = get_array_length("Output/SCORE_bin.bin")
-print(f"The length of the array is: {array_length}")
+# Replace 'your_file.bin' with the path to your binary file
+file_path = 'Output/SCORE_bin.bin'
+length = get_array_length(file_path)
+print(f"The array contains {length} floats.")

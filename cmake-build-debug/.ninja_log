@@ -1,0 +1,7 @@
+# ninja log v5
+475	528	1705784459139087100	DNA_Compression	1465ce04bf2daa5a
+0	474	1705784459081441306	CMakeFiles/DNA_Compression.dir/Retriever.cpp.o	c3cd31befa1c24e5
+0	34	1705784458644599204	CMakeFiles/DNA_Compression.dir/Test.cpp.o	409143f31a216675
+6	67	1705858896714282303	build.ninja	7dd60c09fd18264e
+4	571	1705858897290826256	CMakeFiles/DNA_Compression.dir/Test.cpp.o	fb586a56d1630525
+4	576	1705858897296056605	CMakeFiles/DNA_Compression.dir/Retriever.cpp.o	6d6e1825ccb56ab4

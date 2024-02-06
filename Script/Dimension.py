@@ -13,6 +13,6 @@ def get_array_length(file_path):
     return num_floats
 
 # Replace 'your_file.bin' with the path to your binary file
-file_path = 'Output/SCORE_bin.bin'
+file_path = '/Users/taolueyang/DNA_Compression/Fastq/Sorted_test_1000.bin'
 length = get_array_length(file_path)
 print(f"The array contains {length} floats.")

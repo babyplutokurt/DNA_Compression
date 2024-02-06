@@ -39,6 +39,7 @@ def retrieve(input_file, output_file_name_DNA, output_file_name_qualityScore):
                 x = line.split()
                 DNA_Output += x[9]
                 SCORE_Output += x[10]
+                counter.update(SCORE_Output)
                 if count % Buffer_size == 0:
                     # dna_file.write(DNA_Output)
                     score_file.write(SCORE_Output)
@@ -62,6 +63,8 @@ def retrieve(input_file, output_file_name_DNA, output_file_name_qualityScore):
     assert len(DNA_Output) == len(
         SCORE_Output), f"String length unmatched, {output_file_name_DNA} length: {len(DNA_Output)}, " \
                        f"while {output_file_name_qualityScore} length: {len(SCORE_Output)}"
+    print(counter)
+    print(len(counter))
     # dna_file.write(DNA_Output)
     score_file.write(SCORE_Output)
     # float_array = write_ascii_values_to_file(SCORE_Output)
